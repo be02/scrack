@@ -1,6 +1,6 @@
 class Scraper
 	def self.scrape
-		data = HTTParty.get('http://www.brainyquote.com/quotes/authors/s/steve_jobs.html')
+		data = HTTParty.get('http://www.brainyquote.com/quotes/authors/a/albert_einstein.html')
 
 		response_body =
 		data.response.body
